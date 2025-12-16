@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amerika - Panduan Pariwisata</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .country-detail-container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            padding: 50px;
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .country-detail-header {
+            margin-bottom: 40px;
+        }
+
+        .country-detail-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+
+        .country-detail-header h1 {
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .country-detail-content p {
+            color: #555;
+            line-height: 1.9;
+            margin-bottom: 20px;
+            text-align: justify;
+            font-size: 16px;
+        }
+
+        .highlights {
+            background: #f8f9ff;
+            padding: 30px;
+            border-radius: 10px;
+            border-left: 5px solid #667eea;
+            margin-top: 30px;
+        }
+
+        .highlights h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+
+        .highlights ul {
+            list-style: none;
+        }
+
+        .highlights li {
+            color: #555;
+            padding: 12px 0;
+            padding-left: 30px;
+            position: relative;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .highlights li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .btn-group {
+            margin-top: 40px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .btn-back, .btn-logout {
+            padding: 13px 30px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            font-size: 14px;
+        }
+
+        .btn-back {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-back:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+        }
+
+        .btn-logout {
+            background: #f5a623;
+            color: white;
+        }
+
+        .btn-logout:hover {
+            background: #f0931a;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="country-detail-container">
+            <div class="country-detail-header">
+                <h1>🇺🇸 Amerika</h1>
+            </div>
+
+            <div class="country-detail-content">
+                <p>
+                    Amerika Serikat adalah negara yang luas dengan keragaman budaya, alam, dan atraksi wisata yang tidak ada bandingannya. Dari 
+                    kota-kota besar yang dinamis hingga alam liar yang spektakuler, Amerika menawarkan pengalaman wisata untuk setiap jenis traveler.
+                </p>
+                <p>
+                    New York dan Los Angeles adalah dua kota terbesar yang menawarkan pengalaman urban yang unik. New York dikenal sebagai "kota yang tidak pernah tidur" dengan 
+                    gedung-gedung pencakar langit ikonik, Broadway theaters, dan museum kelas dunia, sementara Los Angeles terkenal dengan Hollywood, pantai pasir putih, dan budaya celebrity.
+                </p>
+                <p>
+                    Selain kota-kota besar, Amerika memiliki keajaiban alam yang spektakuler seperti Grand Canyon, Yellowstone, dan Niagara Falls. Setiap wilayah menawarkan pengalaman 
+                    unik, dari petualangan outdoor hingga pengalaman budaya yang kaya dan beragam.
+                </p>
+            </div>
+
+            <div class="highlights">
+                <h2>Destinasi Utama di Amerika</h2>
+                <div class="destination-list">
+                    <div class="destination-item">
+                        <img src="Foto/Foto Pariwisata/New York.jpg" alt="New York" class="destination-image">
+                        <div class="destination-text">
+                            <h3>New York</h3>
+                            <p>New York adalah kota terbesar di Amerika Serikat yang dikenal sebagai "kota yang tidak pernah tidur" dengan kehidupan yang dinamis 24 jam. Kota ini terkenal dengan gedung pencakar langit yang menakjubkan termasuk Empire State Building, Times Square yang meriah, Broadway theaters, dan museum kelas dunia. New York adalah pusat budaya, seni, dan perdagangan yang menarik jutaan pengunjung setiap tahunnya.</p>
+                        </div>
+                    </div>
+
+                    <div class="destination-item">
+                        <img src="Foto/Foto Pariwisata/Los Angeles.jpg" alt="Los Angeles" class="destination-image">
+                        <div class="destination-text">
+                            <h3>Los Angeles</h3>
+                            <p>Los Angeles adalah kota besar di California yang terkenal dengan Hollywood, pusat industri film dan entertainment global. Kota ini menawarkan pantai yang indah seperti Santa Monica dan Venice Beach, cuaca yang cerah sepanjang tahun, dan gaya hidup California yang santai. Los Angeles adalah destinasi sempurna untuk penggemar film, pelover pantai, dan mereka yang mencari kehidupan kota yang lebih santai dengan keindahan alam.</p>
+                        </div>
+                    </div>
+
+                    <div class="destination-item">
+                        <img src="Foto/Foto Pariwisata/Grand Canyon.jpg" alt="Grand Canyon" class="destination-image">
+                        <div class="destination-text">
+                            <h3>Grand Canyon</h3>
+                            <p>Grand Canyon adalah keajaiban alam yang spektakuler, terletak di Arizona dan merupakan salah satu situs alam paling menakjubkan di dunia. Dengan kedalaman yang luar biasa dan pemandangan yang memukau, Grand Canyon menawarkan pengalaman alam yang tak terlupakan. Pengunjung dapat menjelajahi canyon dengan hiking, rafting di sungai Colorado, atau sekadar menikmati pemandangan dari berbagai titik pandang yang menakjubkan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <a href="dashboard.html" class="btn-back">← Kembali ke Dashboard</a>
+                <a href="index.html" class="btn-logout">🚪 Logout</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

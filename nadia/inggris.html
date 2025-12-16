@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inggris - Panduan Pariwisata</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .country-detail-container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            padding: 50px;
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .country-detail-header {
+            margin-bottom: 40px;
+        }
+
+        .country-detail-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+
+        .country-detail-header h1 {
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .country-detail-content p {
+            color: #555;
+            line-height: 1.9;
+            margin-bottom: 20px;
+            text-align: justify;
+            font-size: 16px;
+        }
+
+        .highlights {
+            background: #f8f9ff;
+            padding: 30px;
+            border-radius: 10px;
+            border-left: 5px solid #667eea;
+            margin-top: 30px;
+        }
+
+        .highlights h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+
+        .highlights ul {
+            list-style: none;
+        }
+
+        .highlights li {
+            color: #555;
+            padding: 12px 0;
+            padding-left: 30px;
+            position: relative;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .highlights li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .btn-group {
+            margin-top: 40px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .btn-back, .btn-logout {
+            padding: 13px 30px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            font-size: 14px;
+        }
+
+        .btn-back {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-back:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+        }
+
+        .btn-logout {
+            background: #f5a623;
+            color: white;
+        }
+
+        .btn-logout:hover {
+            background: #f0931a;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="country-detail-container">
+            <div class="country-detail-header">
+                <h1>🇬🇧 Inggris</h1>
+            </div>
+
+            <div class="country-detail-content">
+                <p>
+                    Inggris adalah negara dengan sejarah panjang, warisan budaya yang kaya, dan arsitektur yang megah. Dari istana kerajaan hingga 
+                    kastil abad pertengahan, Inggris menawarkan petualangan sejarah yang tak terlupakan. London, ibu kotanya, adalah salah satu 
+                    kota paling menarik di dunia.
+                </p>
+                <p>
+                    London menawarkan kombinasi sempurna antara landmark bersejarah dan kehidupan modern yang dinamis. Pengunjung dapat menjelajahi 
+                    Big Ben, Buckingham Palace, Westminster Abbey, dan banyak museum kelas dunia yang memamerkan koleksi seni dan arkeologi yang luar biasa.
+                </p>
+                <p>
+                    Selain London, Inggris memiliki banyak destinasi menarik seperti Stonehenge yang misterius, Oxford dan Cambridge dengan universitas 
+                    tertua di Eropa, serta Cotswolds dengan desa-desa tradisional yang menawan. Pengalaman di Inggris tidak lengkap tanpa mencoba afternoon tea dan fish and chips khas Inggris.
+                </p>
+            </div>
+
+            <div class="highlights">
+                <h2>Destinasi Utama di Inggris</h2>
+                <div class="destination-list">
+                    <div class="destination-item">
+                        <img src="Foto/Foto Pariwisata/London.jpg" alt="London" class="destination-image">
+                        <div class="destination-text">
+                            <h3>London</h3>
+                            <p>London adalah ibu kota Inggris yang penuh dengan landmark bersejarah yang ikonik seperti Big Ben, Buckingham Palace, dan Westminster Abbey. Kota ini menawarkan museum kelas dunia, galeri seni terkemuka, kehidupan malam yang meriah, dan belanja di Oxford Street. London adalah kota kosmopolitan yang menggabungkan sejarah dengan modernitas dan merupakan salah satu kota paling menarik di Eropa.</p>
+                        </div>
+                    </div>
+
+                    <div class="destination-item">
+                        <img src="Foto/Foto Pariwisata/Stonehenge.jpg" alt="Stonehenge" class="destination-image">
+                        <div class="destination-text">
+                            <h3>Stonehenge</h3>
+                            <p>Stonehenge adalah monumen prasejarah misterius yang terletak di Wiltshire, Inggris, dan merupakan salah satu situs paling terkenal di dunia. Dibangun lebih dari 5.000 tahun lalu, monumen batu ini masih menjadi misteri bagaimana cara pembuatannya. Stonehenge adalah tempat yang penuh dengan keajaiban sejarah dan menarik pengunjung dari seluruh dunia yang ingin memahami rahasia kuno ini.</p>
+                        </div>
+                    </div>
+
+                    <div class="destination-item">
+                        <img src="Foto/Foto Pariwisata/Oxford & Cambridge.jpg" alt="Oxford & Cambridge" class="destination-image">
+                        <div class="destination-text">
+                            <h3>Oxford & Cambridge</h3>
+                            <p>Oxford dan Cambridge adalah dua universitas tertua dan paling prestisius di Inggris, terkenal dengan arsitektur gothic yang menakjubkan dan tradisi akademik yang kaya. Kedua kota ini menawarkan tur kampus bersejarah, perpustakaan kuno yang indah, sungai yang tenang, dan suasana akademik yang inspiratif. Berkunjung ke Oxford dan Cambridge adalah pengalaman yang tidak terlupakan bagi pecinta sejarah dan arsitektur.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <a href="dashboard.html" class="btn-back">← Kembali ke Dashboard</a>
+                <a href="index.html" class="btn-logout">🚪 Logout</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

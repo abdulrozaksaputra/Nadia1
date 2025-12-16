@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil - Nadia</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .dashboard-container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            padding: 50px;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .dashboard-container h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .profile-field {
+            margin-bottom: 25px;
+        }
+
+        .profile-field label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        .profile-field input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        .profile-field input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 8px rgba(102, 126, 234, 0.15);
+        }
+
+        .btn-save {
+            width: 100%;
+            padding: 13px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-bottom: 10px;
+        }
+
+        .btn-save:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .btn-back {
+            width: 100%;
+            padding: 13px;
+            background: #e0e0e0;
+            color: #555;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .btn-back:hover {
+            background: #d0d0d0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="dashboard-container">
+            <h1>👤 Profil Saya</h1>
+            
+            <form method="GET" action="dashboard.html">
+                <div class="profile-field">
+                    <label for="name">Nama Lengkap</label>
+                    <input type="text" id="name" name="name" value="John Doe" required>
+                </div>
+
+                <div class="profile-field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" value="user@example.com" required>
+                </div>
+
+                <div class="profile-field">
+                    <label for="phone">No. Telepon</label>
+                    <input type="tel" id="phone" name="phone" value="+62812345678">
+                </div>
+
+                <div class="profile-field">
+                    <label for="address">Alamat</label>
+                    <input type="text" id="address" name="address" value="Jalan Contoh No. 123, Jakarta">
+                </div>
+
+                <button type="submit" class="btn-save">💾 Simpan Perubahan</button>
+                <a href="dashboard.html" class="btn-back">← Kembali ke Dashboard</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

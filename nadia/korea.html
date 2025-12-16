@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korea - Panduan Pariwisata</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .country-detail-container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            padding: 50px;
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .country-detail-header {
+            margin-bottom: 40px;
+        }
+
+        .country-detail-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+
+        .country-detail-header h1 {
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .country-detail-content p {
+            color: #555;
+            line-height: 1.9;
+            margin-bottom: 20px;
+            text-align: justify;
+            font-size: 16px;
+        }
+
+        .highlights {
+            background: #f8f9ff;
+            padding: 30px;
+            border-radius: 10px;
+            border-left: 5px solid #667eea;
+            margin-top: 30px;
+        }
+
+        .highlights h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+
+        .highlights ul {
+            list-style: none;
+        }
+
+        .highlights li {
+            color: #555;
+            padding: 12px 0;
+            padding-left: 30px;
+            position: relative;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .highlights li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .btn-group {
+            margin-top: 40px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .btn-back, .btn-logout {
+            padding: 13px 30px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            font-size: 14px;
+        }
+
+        .btn-back {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-back:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+        }
+
+        .btn-logout {
+            background: #f5a623;
+            color: white;
+        }
+
+        .btn-logout:hover {
+            background: #f0931a;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="country-detail-container">
+            <div class="country-detail-header">
+                <h1>🇰🇷 Korea</h1>
+            </div>
+
+            <div class="country-detail-content">
+                <p>
+                    Korea Selatan adalah pusat hiburan dan teknologi Asia yang berkembang pesat. Negara ini terkenal dengan budaya pop, drama, 
+                    dan musik K-pop yang populer di seluruh dunia. Selain itu, Korea menawarkan makanan lezat, desain modern, dan warisan budaya yang kaya.
+                </p>
+                <p>
+                    Seoul, ibu kota Korea Selatan, adalah kota yang dinamis dan penuh energi dengan perpaduan sempurna antara tradisi kuno dan modernitas. 
+                    Pengunjung dapat menikmati palace bersejarah, kuil-kuil tradisional, serta pusat perbelanjaan dan restoran modern yang tersebar di seluruh kota.
+                </p>
+                <p>
+                    K-pop dan budaya Korea telah menjadi fenomena global, menarik jutaan penggemar dari berbagai belahan dunia. Pengalaman wisata di Korea 
+                    tidak lengkap tanpa mencoba makanan lokal yang lezat seperti bibimbap, kimchi, dan Korean BBQ.
+                </p>
+            </div>
+
+            <div class="highlights">
+                <h2>Destinasi Utama di Korea</h2>
+                <div class="destination-list">
+                    <div class="destination-item">
+                        <img src="Foto/Foto Pariwisata/Seoul.avif" alt="Seoul" class="destination-image">
+                        <div class="destination-text">
+                            <h3>Seoul</h3>
+                            <p>Seoul adalah ibu kota Korea Selatan yang modern dan dinamis, menjadi pusat fashion, teknologi, dan hiburan di Asia. Kota ini terkenal dengan gedung pencakar langit yang megah, pertokoan kelas dunia, kehidupan malam yang meriah, dan kuliner yang lezat. Seoul adalah tempat di mana tradisi bertemu dengan modernitas, menawarkan pengalaman urban yang unik dan tak terlupakan.</p>
+                        </div>
+                    </div>
+
+                    <div class="destination-item">
+                        <img src="Foto/Foto Pariwisata/Busan.jpg" alt="Busan" class="destination-image">
+                        <div class="destination-text">
+                            <h3>Busan</h3>
+                            <p>Busan adalah kota pelabuhan terbesar kedua di Korea Selatan yang terkenal dengan pantai-pantai indah dan suasana yang santai. Kota ini menawarkan pemandangan laut yang menakjubkan, tepi pantai yang indah untuk berjalan, restoran seafood yang lezat, dan pulau-pulau eksotis di sekitarnya. Busan adalah destinasi sempurna untuk relaksasi dan menikmati keindahan alam pesisir Korea.</p>
+                        </div>
+                    </div>
+
+                    <div class="destination-item">
+                        <img src="Foto/Foto Pariwisata/Jeju Island.jpg" alt="Jeju Island" class="destination-image">
+                        <div class="destination-text">
+                            <h3>Jeju Island</h3>
+                            <p>Jeju Island adalah pulau eksotis yang sering disebut "Hawaii-nya Korea" dengan pemandangan alam yang menakjubkan dan udara yang segar. Pulau ini terkenal dengan pantai berpasir putih, air terjun yang indah, taman-taman bertema, dan kuliner unik. Jeju Island adalah destinasi liburan keluarga yang sempurna dengan berbagai atraksi wisata dan alam yang masih terjaga dengan baik.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <a href="dashboard.html" class="btn-back">← Kembali ke Dashboard</a>
+                <a href="index.html" class="btn-logout">🚪 Logout</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

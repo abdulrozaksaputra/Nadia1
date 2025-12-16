@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italia - Panduan Pariwisata</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .country-detail-container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            padding: 50px;
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .country-detail-header {
+            margin-bottom: 40px;
+        }
+
+        .country-detail-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+
+        .country-detail-header h1 {
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .country-detail-content p {
+            color: #555;
+            line-height: 1.9;
+            margin-bottom: 20px;
+            text-align: justify;
+            font-size: 16px;
+        }
+
+        .highlights {
+            background: #f8f9ff;
+            padding: 30px;
+            border-radius: 10px;
+            border-left: 5px solid #667eea;
+            margin-top: 30px;
+        }
+
+        .highlights h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+
+        .highlights ul {
+            list-style: none;
+        }
+
+        .highlights li {
+            color: #555;
+            padding: 12px 0;
+            padding-left: 30px;
+            position: relative;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .highlights li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .btn-group {
+            margin-top: 40px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .btn-back, .btn-logout {
+            padding: 13px 30px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            font-size: 14px;
+        }
+
+        .btn-back {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-back:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+        }
+
+        .btn-logout {
+            background: #f5a623;
+            color: white;
+        }
+
+        .btn-logout:hover {
+            background: #f0931a;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="country-detail-container">
+            <div class="country-detail-header">
+                <h1>🇮🇹 Italia</h1>
+            </div>
+
+            <div class="country-detail-content">
+                <p>
+                    Italia adalah jantung peradaban Eropa dengan seni, arsitektur, dan kuliner kelas dunia. Negara ini menawarkan pengalaman 
+                    romantis dengan kota-kota bersejarah, pemandangan alam yang memukau, dan makanan yang lezat. Setiap sudut Italia menceritakan 
+                    kisah sejarah yang mendalam.
+                </p>
+                <p>
+                    Roma, ibu kota Italia, adalah museum terbuka dengan landmark ikonik seperti Colosseum, Vatikan, dan Fountain Trevi. Setiap struktur 
+                    bercerita tentang keagungan Kekaisaran Romawi dan kontribusi Italia pada seni dan arsitektur Barat.
+                </p>
+                <p>
+                    Italia juga terkenal dengan masakan yang lezat, mulai dari pasta dan pizza hingga wine berkualitas tinggi dari berbagai wilayah. 
+                    Pengalaman kuliner di Italia tidak hanya tentang makanan, tetapi juga tentang budaya, keluarga, dan cara hidup yang santai dan menikmati setiap momen.
+                </p>
+            </div>
+
+            <div class="highlights">
+                <h2>Destinasi Utama di Italia</h2>
+                <div class="destination-list">
+                    <div class="destination-item">
+                        <img src="Foto/Foto Pariwisata/Roma.jpg" alt="Roma" class="destination-image">
+                        <div class="destination-text">
+                            <h3>Roma</h3>
+                            <p>Roma adalah ibu kota Italia dan pusat peradaban Romawi kuno yang penuh dengan landmark bersejarah yang menakjubkan. Kota ini terkenal dengan Colosseum, Vatikan, Fountain Trevi, dan banyak gereja bersejarah lainnya. Roma adalah museum terbuka dengan jalan-jalan berkelok yang indah, piazza yang ramai, restoran yang lezat, dan suasana romantis yang membuat setiap pengunjung jatuh cinta dengan kota Eternal ini.</p>
+                        </div>
+                    </div>
+
+                    <div class="destination-item">
+                        <img src="Foto/Foto Pariwisata/Venice.jpg" alt="Venice" class="destination-image">
+                        <div class="destination-text">
+                            <h3>Venice</h3>
+                            <p>Venice adalah kota unik yang dibangun di atas air dengan kanal-kanal romantis sebagai jalan utamanya dan gondola sebagai alat transportasi tradisional. Kota ini terkenal dengan arsitektur Venesia yang indah, Basilica San Marco yang megah, jembatan yang menawan, dan suasana romantis yang sempurna. Venice adalah destinasi impian bagi pasangan yang ingin liburan romantis dan salah satu kota paling unik di dunia.</p>
+                        </div>
+                    </div>
+
+                    <div class="destination-item">
+                        <img src="Foto/Foto Pariwisata/Florence.jpg" alt="Florence" class="destination-image">
+                        <div class="destination-text">
+                            <h3>Florence</h3>
+                            <p>Florence adalah pusat seni Renaissance yang penuh dengan masterpiece karya seniman terkenal seperti Michelangelo dan Leonardo da Vinci. Kota ini terkenal dengan Duomo yang megah dengan kubah terracotta yang ikonik, Galeri Uffizi dengan koleksi seni terbesar, dan Ponte Vecchio yang indah. Florence adalah surga bagi pecinta seni dan menawarkan pengalaman budaya yang kaya dan mendalam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <a href="dashboard.html" class="btn-back">← Kembali ke Dashboard</a>
+                <a href="index.html" class="btn-logout">🚪 Logout</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

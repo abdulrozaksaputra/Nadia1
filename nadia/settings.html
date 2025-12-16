@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengaturan - Nadia</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .dashboard-container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            padding: 50px;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .dashboard-container h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .settings-section {
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+        }
+
+        .settings-section h2 {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .settings-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background: #f8f9ff;
+            border-radius: 8px;
+            margin-bottom: 12px;
+        }
+
+        .settings-item-text {
+            flex: 1;
+        }
+
+        .settings-item-text p {
+            color: #555;
+            font-size: 14px;
+            margin: 0;
+        }
+
+        .settings-item-text p:last-child {
+            color: #999;
+            font-size: 12px;
+            margin-top: 4px;
+        }
+
+        .toggle {
+            width: 50px;
+            height: 28px;
+            background: #e0e0e0;
+            border: none;
+            border-radius: 14px;
+            cursor: pointer;
+            position: relative;
+            transition: background 0.3s ease;
+        }
+
+        .toggle.active {
+            background: #667eea;
+        }
+
+        .btn-back {
+            width: 100%;
+            padding: 13px;
+            background: #e0e0e0;
+            color: #555;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .btn-back:hover {
+            background: #d0d0d0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="dashboard-container">
+            <h1>⚙️ Pengaturan</h1>
+            
+            <div class="settings-section">
+                <h2>Notifikasi</h2>
+                <div class="settings-item">
+                    <div class="settings-item-text">
+                        <p>Email Notifications</p>
+                        <p>Terima notifikasi via email</p>
+                    </div>
+                    <button class="toggle active" title="Email Notifications"></button>
+                </div>
+
+                <div class="settings-item">
+                    <div class="settings-item-text">
+                        <p>SMS Notifications</p>
+                        <p>Terima notifikasi via SMS</p>
+                    </div>
+                    <button class="toggle" title="SMS Notifications"></button>
+                </div>
+            </div>
+
+            <div class="settings-section">
+                <h2>Privasi & Keamanan</h2>
+                <div class="settings-item">
+                    <div class="settings-item-text">
+                        <p>Two-Factor Authentication</p>
+                        <p>Tambah lapisan keamanan ekstra</p>
+                    </div>
+                    <button class="toggle" title="Two-Factor Authentication"></button>
+                </div>
+
+                <div class="settings-item">
+                    <div class="settings-item-text">
+                        <p>Riwayat Login</p>
+                        <p>Lihat semua perangkat yang login</p>
+                    </div>
+                    <a href="#" class="settings-link">Lihat</a>
+                </div>
+            </div>
+
+            <div class="settings-section">
+                <h2>Data & Privasi</h2>
+                <div class="settings-item">
+                    <div class="settings-item-text">
+                        <p>Download Data</p>
+                        <p>Download semua data pribadi Anda</p>
+                    </div>
+                    <a href="#" class="settings-link">Download</a>
+                </div>
+
+                <div class="settings-item">
+                    <div class="settings-item-text">
+                        <p>Hapus Akun</p>
+                        <p>Hapus akun Anda secara permanen</p>
+                    </div>
+                    <a href="#" class="settings-link-danger">Hapus</a>
+                </div>
+            </div>
+
+            <a href="dashboard.html" class="btn-back">← Kembali ke Dashboard</a>
+        </div>
+    </div>
+
+    <script>
+        // Toggle button functionality
+        document.querySelectorAll('.toggle').forEach(button => {
+            button.addEventListener('click', function() {
+                this.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>

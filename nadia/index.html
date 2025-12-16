@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Nadia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <div class="logo">
+                <h1>LOGIN</h1>
+            </div>
+            
+            <h2>Selamat Datang</h2>
+            <p class="subtitle">Masuk ke akun Anda</p>
+            
+            <form method="GET" action="dashboard.html" class="login-form">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Masukkan password" required>
+                </div>
+                
+                <div class="remember-forgot">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="remember" name="remember">
+                        <span>Ingat saya</span>
+                    </label>
+                    <a href="forgot-password.html" class="forgot-link">Lupa password?</a>
+                </div>
+                
+                <button type="submit" class="btn-login">Masuk</button>
+            </form>
+            
+            <div class="signup-section">
+                <p>Belum punya akun? <a href="signup.html" class="signup-link">Daftar sekarang</a></p>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <div class="social-login">
+                <a href="google-login.html" class="social-btn google">
+                    <span>Masuk dengan Google</span>
+                </a>
+                <a href="facebook-login.html" class="social-btn facebook">
+                    <span>Masuk dengan Facebook</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

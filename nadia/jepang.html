@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jepang - Panduan Pariwisata</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .country-detail-container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            padding: 50px;
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .country-detail-header {
+            margin-bottom: 40px;
+        }
+
+        .country-detail-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+
+        .country-detail-header h1 {
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .country-detail-content p {
+            color: #555;
+            line-height: 1.9;
+            margin-bottom: 20px;
+            text-align: justify;
+            font-size: 16px;
+        }
+
+        .highlights {
+            background: #f8f9ff;
+            padding: 30px;
+            border-radius: 10px;
+            border-left: 5px solid #667eea;
+            margin-top: 30px;
+        }
+
+        .highlights h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+
+        .highlights ul {
+            list-style: none;
+        }
+
+        .highlights li {
+            color: #555;
+            padding: 12px 0;
+            padding-left: 30px;
+            position: relative;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .highlights li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .btn-group {
+            margin-top: 40px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .btn-back, .btn-logout {
+            padding: 13px 30px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            font-size: 14px;
+        }
+
+        .btn-back {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-back:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+        }
+
+        .btn-logout {
+            background: #f5a623;
+            color: white;
+        }
+
+        .btn-logout:hover {
+            background: #f0931a;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="country-detail-container">
+            <div class="country-detail-header">
+                <h1>🇯🇵 Jepang</h1>
+            </div>
+
+            <div class="country-detail-content">
+                <p>
+                    Jepang adalah perpaduan sempurna antara tradisi kuno dan teknologi modern. Negara ini terkenal dengan keindahan musim sakura, 
+                    kuil-kuil bersejarah, dan kota-kota futuristik. Pengalaman wisata Jepang mencakup kuliner lezat, budaya yang unik, dan pemandangan 
+                    alam yang spektakuler.
+                </p>
+                <p>
+                    Dari Tokyo yang berkilau dengan lampu neon hingga Kyoto yang tenang dengan kuil-kuil bersejarah, Jepang menawarkan kontras yang 
+                    menakjubkan. Pengunjung dapat menikmati pengalaman tradisional seperti tea ceremony sambil juga merasakan inovasi teknologi terkini.
+                </p>
+                <p>
+                    Setiap musim di Jepang memiliki keindahan tersendiri, mulai dari bunga sakura di musim semi hingga pohon maple yang berubah warna 
+                    di musim gugur. Makanan Jepang yang terkenal di dunia, seperti sushi dan ramen, juga menjadi daya tarik tersendiri bagi wisatawan.
+                </p>
+            </div>
+
+            <div class="highlights">
+                <h2>Destinasi Utama di Jepang</h2>
+                <div class="destination-list">
+                    <div class="destination-item">
+                        <img src="Foto/Foto Pariwisata/Tokyo.jpg" alt="Tokyo" class="destination-image">
+                        <div class="destination-text">
+                            <h3>Tokyo</h3>
+                            <p>Tokyo adalah ibu kota Jepang yang dinamis dan penuh energi, menggabungkan teknologi terdepan dengan tradisi kuno. Kota ini terkenal dengan gedung pencakar langit yang menakjubkan, kehidupan malam yang meriah, belanja di pusat perbelanjaan bergengsi, dan restoran berkualitas tinggi. Tokyo adalah jantung modern Jepang dan wajib dikunjungi bagi semua wisatawan.</p>
+                        </div>
+                    </div>
+
+                    <div class="destination-item">
+                        <img src="Foto/Foto Pariwisata/Kyoto.jpg" alt="Kyoto" class="destination-image">
+                        <div class="destination-text">
+                            <h3>Kyoto</h3>
+                            <p>Kyoto adalah kota yang melestarikan budaya tradisional Jepang dengan ribuan kuil dan kuil bersejarah yang menakjubkan. Kota ini terkenal dengan geisha, arsitektur tradisional, taman-taman indah, dan festival budaya yang meriah. Kyoto adalah tempat sempurna untuk merasakan jiwa autentik Jepang dan mempelajari warisan budaya yang kaya.</p>
+                        </div>
+                    </div>
+
+                    <div class="destination-item">
+                        <img src="Foto/Foto Pariwisata/Mount Fuji.jpg" alt="Mount Fuji" class="destination-image">
+                        <div class="destination-text">
+                            <h3>Mount Fuji</h3>
+                            <p>Mount Fuji adalah gunung tertinggi dan paling ikonik di Jepang, menjadi simbol budaya Jepang yang diakui di seluruh dunia. Dengan ketinggian 3.776 meter, gunung ini menawarkan pemandangan spektakuler yang menakjubkan, terutama saat terlihat dari kejauhan dengan puncak bersalju. Mount Fuji adalah destinasi mendaki yang populer dan menawarkan pengalaman alam yang tak terlupakan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <a href="dashboard.html" class="btn-back">← Kembali ke Dashboard</a>
+                <a href="index.html" class="btn-logout">🚪 Logout</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
